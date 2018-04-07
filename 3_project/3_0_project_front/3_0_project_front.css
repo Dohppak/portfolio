@@ -1,0 +1,124 @@
+@font-face{
+    font-family: 'Helvetica-ultra-light';
+    src: url('font/HelveticaNeueLTStd-UltLt.otf') format("opentype");
+}
+@font-face{
+    font-family: 'Times-bold-italic';
+    src: url('font/TimesLTStd-BoldItalic.otf') format("opentype");
+}
+
+body {
+    background: #D9D9D9;
+    margin : 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper{
+    margin-left :10%;
+    margin-right : 10%
+}
+
+.header {
+    height : 105px;
+}
+
+.header #logo{
+    margin-top:35px;
+}
+
+.header #SeungHeon{
+    height: 20px;	
+    width: 106px;	
+    color: black;	
+    font-family: "Helvetica-ultra-light";	
+    font-size: 15px;	
+    line-height: 18px;
+}
+
+.header #Doh{
+    height: 20px;	
+    width: 106px;	
+    color: rgb(0,0,0);	
+    font-family: "Times-bold-italic";	
+    font-size: 15px;	
+    line-height: 18px;
+}
+
+nav ul{
+    display:flex;
+    float: right;
+}
+
+.menuLink
+{
+     line-height:12px;
+     font-weight:bold;
+     color: rgb(0,0,0);	
+     font-family: "Times-bold-italic";
+     margin:0 10px 4px 10px;
+     text-decoration:none;
+     font-size:12px;
+     display: inline;
+}
+.menuLink.active, .menuLink:hover
+{
+ color: white;
+}
+
+#main .item{
+    background: url(../../6_static/6_3_project/6_3_0_project_front/6_3_1_0.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+#main .item {
+}
+
+#main .thumbnails .li{
+}
+
+#main .thumbnails img{
+
+}
+
+#main .thumbnails img:hover{
+}
+
+.footor {
+    display:flex;
+    float: right;
+    margin: 2rem auto 1rem auto;
+    
+}
+
+#footer-content{
+}
+
+#footer-content img{
+}
+
+#port{	
+    color: rgba(0,0,0,0.33);	
+    font-family: "Times-bold-italic";	
+    line-height: 15px;
+}
+#fin{	
+    color: rgba(0,0,0,0.87);	
+    font-family: "Times-bold-italic";	
+    line-height: 15px;
+}
+
+@media(max-width:780px){
+    
+    #main .thumbnails{
+        display: block;
+    }
+}

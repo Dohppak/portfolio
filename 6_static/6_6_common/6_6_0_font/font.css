@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'Helvetica-ultra-light';
+    src: url('HelveticaNeueLTStd-UltLt.otf') format("opentype");
+}
+@font-face{
+    font-family: "Times-bold-italic";
+    src: url('TimesLTStd-BoldItalic.otf') format("opentype");
+}
+
+@font-face{
+    font-family: 'Helvetica-bold';
+    src: url('HelveticaLTStd-Obl.otf') format("opentype");
+}
+
+@font-face{
+    font-family: 'Helvetica-roman';
+    src: url('HelveticaNeueLTStd-Roman.otf') format("opentype");
+}
+
+@font-face{
+    font-family: 'Helvetica-bold-italic';
+    src: url('HelveticaLTStd-Obl.otf') format("opentype");
+}

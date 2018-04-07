@@ -1,0 +1,183 @@
+@import url(../../../font/font.css);
+
+
+body {
+    background: #D9D9D9;
+    font-size : 15px;
+    margin : 0;
+}
+
+#back-img{
+    background: url(3.1.1.Top.png) center no-repeat;
+    width:100wv;
+    height : 55vh;
+}
+
+
+
+.wrapper{
+    width: 80%;
+    margin-left :10%;
+    margin-right : 10%;
+}
+
+.header {
+    width: 80%;
+    height : 105px;
+    position: absolute;
+    top: 0;
+}
+
+.header #logo{
+    margin-top:35px;
+}
+
+.header a{
+    text-decoration: none;
+}
+.header #SeungHeon{
+    height: 20px;	
+    width: 106px;	
+    color: black;	
+    font-family: "Helvetica-ultra-light";	
+    font-size: 15px;	
+    line-height: 18px;
+}
+
+.header #Doh{
+    height: 20px;	
+    width: 106px;	
+    color: rgb(0,0,0);	
+    font-family: "Times-bold-italic";	
+    font-size: 15px;	
+    line-height: 18px;
+}
+
+nav ul{
+    display:flex;
+    float: right;
+}
+
+.menuLink
+{
+ line-height:12px;
+ font-weight:bold;
+ color: rgb(0,0,0);	
+ font-family: "Times-bold-italic";
+ margin:0 0px 0px 50px;
+ text-decoration:none;
+ font-size:12px;
+ display: inline;
+}
+.menuLink.active, .menuLink:hover
+{
+ color: white;
+}
+
+.discription {
+    width: 100%;
+    height: 45vh;
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.discription div {
+    width: 20%;
+    line-height: 2.5;
+}
+
+.discription .second *:nth-child(3) {
+    margin-top: 10vh;
+    
+}
+
+.discription div h5 {
+    margin: 0;
+    margin-bottom: 3vh;
+    font-family: "Helvetica-Roman";	
+    font-size: 0.8rem;
+    color : rgba(0,0,0,0.87);
+}
+
+.discription div p {
+    margin: 0;
+    font-family: "Helvetica-Roman";	
+    font-size: 0.8rem;
+    color : rgba(0,0,0,0.5);
+}
+.discription a{
+    text-decoration: none;
+}
+
+
+.main-first{
+    background: url(3.1.1.%20Main-1.png) center no-repeat;
+}
+
+.main-second{
+    background: url(3.1.1.%20Main-2.png) center no-repeat;
+}
+
+.main-third{
+    background: url(3.1.1.%20mock.png) center no-repeat;
+}
+
+.main {
+    position: relative;
+    left: 0;
+    width : 100vw;
+    height : 100vh;
+    padding-top: 8vh;
+    background-size: cover;
+}
+
+.main p {
+    margin: 0.3vw 0 0 10vw;
+    font-family: "Helvetica-Roman";	
+    font-size: 0.8rem;
+    color : rgba(0,0,0,0.87);
+    
+}
+
+.main hr {
+    border : 0;
+    margin: 0 0 0 10vw;
+    width: 15px;
+    height : 1px;
+    background-color: rgba(0,0,0,0.87);
+}
+
+
+
+.footor {
+    display:flex;
+    float: right;
+    margin: 2rem 2rem 1rem auto;
+    
+}
+
+#footer-content{
+}
+
+#footer-content img{
+}
+
+#port{	
+    color: rgba(0,0,0,0.33);	
+    font-family: "Times-bold-italic";	
+    line-height: 15px;
+}
+#fin{	
+    color: rgba(0,0,0,0.87);	
+    font-family: "Times-bold-italic";	
+    line-height: 15px;
+}
+
+@media(max-width:780px){
+    
+    #main .thumbnails{
+        display: block;
+    }
+}

@@ -1,0 +1,144 @@
+body {
+    background: #D9D9D9;
+}
+
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+.wrapper {
+    padding: 0 140px;
+}
+
+.wrapper .nav {
+    height : 105px;
+    padding-top: 68px;
+}
+
+.wrapper .nav .return_main {
+    width: 120px;
+    height: 16px;    
+}
+
+.wrapper .nav .return_main img {
+    display: block;
+    width: 105px;
+}
+
+.wrapper .nav .links {
+/*    width: ?px;*/
+    height: 21px;
+    margin-right: 0;
+}
+
+.wrapper .nav .links a {
+    font-size: 20px;
+    opacity: 0.5;
+    margin: 0 12px;
+} 
+
+.wrapper .description_1 {
+    height: 570px;
+    margin-bottom: 54px;
+    position: relative;
+}
+
+.wrapper .description_1 #my_back {
+    width: 563px;
+    height: 100%;
+    background-image:url(../6_static/6_2_about/6_2_0_Profile.png)
+}
+
+.wrapper .description_1 .intro {
+    position: absolute;
+    top: 177px;
+    left: 514px;
+    right: 0;
+}
+
+.wrapper .description_1 .intro h4 {
+    height: 25px;
+    font-family: HelveticaNeueLTStd-UltLt;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.wrapper .description_1 .intro h1 {
+    height: 90px;
+    font-family: Times-bold-italic;
+    font-size: 80px;
+    line-height: 1.13;
+    margin-top: 0;
+}
+
+.wrapper .description_1 .intro p {
+    padding-left: 80px;
+    font-family: HelveticaNeueLTStd-Roman;
+    font-size: 12px;
+    line-height: 2.08;
+    letter-spacing: -0.2px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 46px;
+}
+
+.wrapper .description_1 .intro p:nth-child(4) {
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 17px!important;
+}
+
+.wrapper .description_1 .intro p:last-child {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .description_2 ul {
+    padding-left: 0;
+}
+
+.wrapper .description_2 ul li {
+    font-family: HelveticaNeueLTStd-Roman;
+    font-size: 12px;
+    line-height: 2.08;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .description_2 div:first-child > ul li {
+/*    margin-left: -40px;*/
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.wrapper .description_2 li.title {
+    font-family: HelveticaNeueLTStd-Roman;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 24px;
+    margin-right: -20px;
+    word-break: break-all;
+}
+
+.wrapper .page-footer {
+    margin-top: 64px;
+    margin-bottom: 40px;
+    text-align: right;
+    font-size: 15px;
+    font-family: Times-bold-italic;
+}
+
+.wrapper .page-footer span:first-child {
+    color: rgba(0, 0, 0, 0.33);
+    letter-spacing: -0.3px;
+}
+
+.wrapper .page-footer span:last-child {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.wrapper .page-footer img {
+    width: 64px;   
+    height: 20px;
+    margin-left: 32px;
+}
