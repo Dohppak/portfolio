@@ -20,7 +20,7 @@ a, li {
 
 .wrapper nav.nav .return_main {
     width: 120px;
-    height: 16px;    
+    height: 16px;
 }
 
 .wrapper nav.nav .return_main img {
@@ -32,7 +32,7 @@ a, li {
     position: absolute;
     top: 68px;
     right: 140px;
-    border: none;    
+    border: none;
 }
 
 .wrapper .select_tab li {
@@ -42,6 +42,7 @@ a, li {
 .wrapper .select_tab li a {
     padding: 0;
     font-family: HelveticaNeueLTStd-UltLt;
+    font-size : 12px;
     color: rgba(0, 0, 0, 0.5);
     outline: none;
     border: none;
@@ -54,9 +55,8 @@ a, li {
 
 .wrapper .select_tab li.active a,
 .wrapper .select_tab li a:hover {
-    font-size: 15px;
-    font-weight: bold;
-    font-style: italic;
+    font-family: Times-bold-italic;
+    font-size: 12px;
     color: rgba(0, 0, 0, 1);
     border: none;
     background-color: transparent;
@@ -74,12 +74,12 @@ a, li {
 }
 
 .wrapper .tab-content #all .all_items > li:hover {
-    background-color: #f2f2f2;    
+    background-color: #f2f2f2;
 }
 
 .wrapper .tab-content #all .all_items > li div {
     height: inherit;
-    position: relative;    
+    position: relative;
 }
 
 .wrapper .tab-content #all .all_items > li div > * {
@@ -94,22 +94,27 @@ a, li {
 
 
 .wrapper .tab-content #all .all_items > li div:first-child p {
-    
+    font-family: Helvetica-bold-italic;
 }
 
 .wrapper .tab-content #all .all_items > li div:first-child .title {
+    font-family: Helvetica-roman;
+    color : rgba(0,0,0,0.33);
 }
 
 .wrapper .tab-content #all .all_items > li div:last-child p {
-    
+    font-family: Helvetica-roman;
+    color : rgba(0,0,0,0.70);
 }
 
 .wrapper .tab-content #all .all_items > li div:last-child .title {
+    font-family: Helvetica-bold;
+    color : rgba(0,0,0,0.87);
 }
 
 
 
-    
+
 
 .wrapper .page-footer {
     margin-top: 64px;
@@ -131,7 +136,7 @@ a, li {
 }
 
 .wrapper .page-footer img {
-    width: 64px;   
+    width: 64px;
     height: 20px;
     margin-left: 32px;
 }

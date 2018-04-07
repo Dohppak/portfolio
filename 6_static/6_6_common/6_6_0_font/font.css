@@ -9,7 +9,7 @@
 
 @font-face{
     font-family: 'Helvetica-bold';
-    src: url('HelveticaLTStd-Obl.otf') format("opentype");
+    src: url('HelveticaLTStd-Bd.otf') format("opentype");
 }
 
 @font-face{
@@ -19,5 +19,5 @@
 
 @font-face{
     font-family: 'Helvetica-bold-italic';
-    src: url('HelveticaLTStd-Obl.otf') format("opentype");
+    src: url('HelveticaNeueLTStd-BdIt.otf') format("opentype");
 }

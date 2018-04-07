@@ -8,7 +8,7 @@ body {
 }
 
 #back-img{
-    background: url(3.) center no-repeat;
+    background: url(3.2.4.%20Top.png) center no-repeat;
     width:100wv;
     height : 60vh;
     background-size: cover;
@@ -39,19 +39,19 @@ body {
 }
 
 .header #SeungHeon{
-    height: 20px;	
-    width: 106px;	
-    color: black;	
-    font-family: "Helvetica-ultra-light";	
+    height: 20px;
+    width: 106px;
+    color: black;
+    font-family: "Helvetica-ultra-light";
     font-size: 1rem;
     line-height: 18px;
 }
 
 .header #Doh{
-    height: 20px;	
-    width: 106px;	
-    color: rgb(0,0,0);	
-    font-family: "Times-bold-italic";	
+    height: 20px;
+    width: 106px;
+    color: rgb(0,0,0);
+    font-family: "Times-bold-italic";
     font-size: 1rem;
     line-height: 18px;
 }
@@ -65,7 +65,7 @@ nav ul{
 {
  line-height:12px;
  font-weight:bold;
- color: rgb(0,0,0);	
+ color: rgb(0,0,0);
  font-family: "Times-bold-italic";
  margin:0 0px 0px 50px;
  text-decoration:none;
@@ -79,18 +79,17 @@ nav ul{
 
 .subtitle{
     margin-bottom: 0;
-    font-family: "Times-bold-italic";	
+    font-family: "Times-bold-italic";
     font-size: 1rem;
     margin-top: 20%;
     margin-left : 0.7%;
-    color: rgba(255,255,255,1);
 }
 
 .title{
-    font-family: "Helvetica-ultra-light";	
+    font-family: "Helvetica-ultra-light";
     font-size: 7rem;
     letter-spacing: 0.8rem;
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,0.87);
     padding : 0;
     margin :0;
 }
@@ -111,20 +110,20 @@ nav ul{
 
 .description .second *:nth-child(3) {
     margin-top: 10vh;
-    
+
 }
 
 .description div h5 {
     margin: 0;
     margin-bottom: 3vh;
-    font-family: "Helvetica-Roman";	
+    font-family: "Helvetica-Roman";
     font-size: 0.8rem;
     color : rgba(0,0,0,0.87);
 }
 
 .description div p {
     margin: 0;
-    font-family: "Helvetica-Roman";	
+    font-family: "Helvetica-Roman";
     font-size: 0.7rem;
     color : rgba(0,0,0,0.50);
 }
@@ -136,25 +135,18 @@ nav ul{
 
 
 .main-first{
-    background: url(3.2.1.Main.png) center no-repeat;
+    background: url(3.2.4.Main.png) center no-repeat;
 }
 
 .main-second{
-    background: url(3.2.1.%20App.png) center no-repeat;
+    background: url(3.2.4.%20Scenario.png) center no-repeat;
 }
 
 .main-third{
-    background: url(3.2.1.%20User.png)  center no-repeat;
+    background: url(3.2.4.%20Tech1.png)  center no-repeat;
 }
-
 .main-fourth{
-    background: url(3.2.1.%20Mood.png) center no-repeat;
-}
-.main-fifth{
-    background: url(3.2.1.%20Sketch.png) center no-repeat;
-}
-.main-six{
-    background: url(3.2.1.%20Prototype.png) center no-repeat;
+    background: url(3.2.4.%20Tech2.png) center no-repeat;
 }
 .main {
     position: relative;
@@ -167,7 +159,7 @@ nav ul{
 
 .main p {
     margin: 0 0 0 10vw;
-    font-family: "Helvetica-Roman";	
+    font-family: "Helvetica-Roman";
     font-size: 0.8rem;
     color : rgba(0,0,0,0.87);
 
@@ -187,7 +179,7 @@ nav ul{
     display:flex;
     float: right;
     margin: 2rem 2rem 1rem auto;
-    
+
 }
 
 #footer-content{
@@ -196,13 +188,13 @@ nav ul{
 #footer-content img{
 }
 
-#port{	
-    color: rgba(0,0,0,0.33);	
-    font-family: "Times-bold-italic";	
+#port{
+    color: rgba(0,0,0,0.33);
+    font-family: "Times-bold-italic";
     line-height: 15px;
 }
-#fin{	
-    color: rgba(0,0,0,0.87);	
-    font-family: "Times-bold-italic";	
+#fin{
+    color: rgba(0,0,0,0.87);
+    font-family: "Times-bold-italic";
     line-height: 15px;
 }
