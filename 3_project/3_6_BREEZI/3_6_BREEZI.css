@@ -1,6 +1,3 @@
-@import url(../../../font/font.css);
-
-
 body {
     background: #D9D9D9;
     font-size : 15px;
@@ -8,7 +5,7 @@ body {
 }
 
 #back-img{
-    background: url(3.2.4.%20Top.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_0_Top.png) center no-repeat;
     width:100wv;
     height : 60vh;
     background-size: cover;
@@ -135,18 +132,18 @@ nav ul{
 
 
 .main-first{
-    background: url(3.2.4.Main.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_1_Mockup.png) center no-repeat;
 }
 
 .main-second{
-    background: url(3.2.4.%20Scenario.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_2_Scienaro.png) center no-repeat;
 }
 
 .main-third{
-    background: url(3.2.4.%20Tech1.png)  center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_3_Tech.png) center no-repeat;
 }
 .main-fourth{
-    background: url(3.2.4.%20Tech2.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_4_Tech2.png) center no-repeat;
 }
 .main {
     position: relative;

@@ -8,7 +8,7 @@ body {
 }
 
 #back-img{
-    background: url(../../6_static/6_3_project/6_3_1_Data_visualization/6_3_1_0_Top.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_3_Data_visualization/6_3_3_0_Top.png) center no-repeat;
     width:100wv;
     height : 60vh;
     background-size: cover;
@@ -133,15 +133,15 @@ nav ul{
 
 
 .main-first{
-    background: url(../../6_static/6_3_project/6_3_1_Data_visualization/6_3_1_1_Main-1.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_3_Data_visualization/6_3_3_1_Main-1.png) center no-repeat;
 }
 
 .main-second{
-    background: url(../../6_static/6_3_project/6_3_1_Data_visualization/6_3_1_2_Main-2.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_3_Data_visualization/6_3_3_2_Main-2.png) center no-repeat;
 }
 
 .main-third{
-    background: url(../../6_static/6_3_project/6_3_1_Data_visualization/6_3_1_3_mock.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_3_Data_visualization/6_3_3_3_mock.png) center no-repeat;
 }
 
 .main {

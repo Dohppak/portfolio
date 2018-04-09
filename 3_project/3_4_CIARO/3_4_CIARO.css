@@ -8,7 +8,7 @@ body {
 }
 
 #back-img{
-    background: url(3.2.1.Top.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_0_TOP.png) center no-repeat;
     width:100wv;
     height : 60vh;
     background-size: cover;
@@ -136,25 +136,25 @@ nav ul{
 
 
 .main-first{
-    background: url(3.2.1.Main.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_1_Mockup.png) center no-repeat;
 }
 
 .main-second{
-    background: url(3.2.1.%20App.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_2_Apps.png) center no-repeat;
 }
 
 .main-third{
-    background: url(3.2.1.%20User.png)  center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_3_user.png)  center no-repeat;
 }
 
 .main-fourth{
-    background: url(3.2.1.%20Mood.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_4_mood.png) center no-repeat;
 }
 .main-fifth{
-    background: url(3.2.1.%20Sketch.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_5_Sketch.png) center no-repeat;
 }
 .main-six{
-    background: url(3.2.1.%20Prototype.png) center no-repeat;
+    background: url(../../6_static/6_3_project/6_3_4_CIARO/6_3_4_6_Mock.png) center no-repeat;
 }
 .main {
     position: relative;
