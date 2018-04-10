@@ -1,12 +1,3 @@
-@font-face{
-    font-family: 'Helvetica-ultra-light';
-    src: url('font/HelveticaNeueLTStd-UltLt.otf') format("opentype");
-}
-@font-face{
-    font-family: 'Times-bold-italic';
-    src: url('font/TimesLTStd-BoldItalic.otf') format("opentype");
-}
-
 body {
     background: #D9D9D9;
     margin : 0;
@@ -19,77 +10,70 @@ li {
 a {
     text-decoration: none;
 }
-
-#wrapper{
-    margin-left :10%;
-    margin-right : 10%
+.wrapper {
+    padding: 0 10%;
+    position: relative;
 }
 
-.header {
+.wrapper nav.nav {
     height : 105px;
+    padding-top: 68px;
 }
 
-.header #logo{
-    margin-top:35px;
+.wrapper nav.nav .return_main {
+    width: 120px;
+    height: 16px;
 }
 
-.header #SeungHeon{
-    height: 20px;	
-    width: 106px;	
-    color: black;	
-    font-family: "Helvetica-ultra-light";	
-    font-size: 15px;	
-    line-height: 18px;
+.wrapper nav.nav .return_main img {
+    display: block;
+    width: 105px;
 }
 
-.header #Doh{
-    height: 20px;	
-    width: 106px;	
-    color: rgb(0,0,0);	
-    font-family: "Times-bold-italic";	
-    font-size: 15px;	
-    line-height: 18px;
+.wrapper .select_tab {
+    position: absolute;
+    top: 68px;
+    right: 10%;
+    border: none;
 }
 
-nav ul{
-    display:flex;
-    float: right;
+.wrapper .select_tab li {
+    margin: 0 0 0 50px;
 }
 
-.menuLink
-{
-     line-height:12px;
-     font-weight:bold;
-     color: rgb(0,0,0);	
-     font-family: "Times-bold-italic";
-     margin:0 10px 4px 10px;
-     text-decoration:none;
-     font-size:12px;
-     display: inline;
-}
-.menuLink.active, .menuLink:hover
-{
- color: white;
+.wrapper .select_tab li a {
+    padding: 0;
+    font-family: HelveticaNeueLTStd-UltLt;
+    font-size : 12px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    background-color: transparent;
 }
 
-#main .item{
+.wrapper .select_tab li.active a:hover {
+    border: none;
+}
+
+.wrapper .select_tab li.active a,
+.wrapper .select_tab li a:hover {
+    font-family: Times-bold-italic;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    background-color: transparent;
+}
+
+
+.wrapper .tab-content #all .all_items {
+    padding-left: 0;
+}
+
+.wrapper .tab-content #all .item{
     background: url(../../6_static/6_3_project/6_3_0_project_front/AntHouse_web1.png) center no-repeat;
     background-size: cover;
     width: 100%;
     margin-bottom: 3rem;
-}
-
-#main .item {
-}
-
-#main .thumbnails .li{
-}
-
-#main .thumbnails img{
-
-}
-
-#main .thumbnails img:hover{
 }
 
 .footor {
@@ -114,11 +98,4 @@ nav ul{
     color: rgba(0,0,0,0.87);	
     font-family: "Times-bold-italic";	
     line-height: 15px;
-}
-
-@media(max-width:780px){
-    
-    #main .thumbnails{
-        display: block;
-    }
 }
