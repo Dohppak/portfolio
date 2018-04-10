@@ -9,7 +9,7 @@ a, li {
 }
 
 .wrapper {
-    padding: 0 140px;
+    padding: 0 10%;
     position: relative;
 }
 
@@ -90,8 +90,6 @@ a, li {
 	top: 50%;
 	transform: translate(0, -50%);
 }
-
-
 
 .wrapper .tab-content #all .all_items > li div:first-child p {
     font-family: Helvetica-bold-italic;
