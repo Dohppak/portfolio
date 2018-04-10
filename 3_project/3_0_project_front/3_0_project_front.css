@@ -69,11 +69,83 @@ a {
     padding-left: 0;
 }
 
+
+
 .wrapper .tab-content #all .item{
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.wrapper .tab-content #all .item1 {
     background: url(../../6_static/6_3_project/6_3_0_project_front/AntHouse_web1.png) center no-repeat;
     background-size: cover;
-    width: 100%;
-    margin-bottom: 3rem;
+}
+
+.wrapper .tab-content #all .item2 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/Research1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item3 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/Data_visualizetion1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item4 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/CIARO1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item5 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/DCLOCK1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item6 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/Breezi1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item7 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/Midas_branding1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item8 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/AntHouse_branding1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item9 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/ICON1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item2 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/Research1.png) center no-repeat;
+    background-size: cover;
+}
+
+.wrapper .tab-content #all .item2 {
+    background: url(../../6_static/6_3_project/6_3_0_project_front/Research1.png) center no-repeat;
+    background-size: cover;
+}
+
+
+.wrapper .tab-content #all .item .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.wrapper .tab-content #all .item .text a {
+    display : block;
+    width : 100%;
+    height: 100%;
 }
 
 .footor {

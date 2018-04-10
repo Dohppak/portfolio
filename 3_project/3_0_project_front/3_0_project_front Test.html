@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- † -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfoilo_Front</title>
+        <title>Project</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">        
         <link rel="stylesheet" href="3_0_project_front.css">
@@ -33,58 +33,58 @@
 
         <div class="tab-content">
             <div class="tab-pane fade in active" id="all">
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                1
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                2
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                3
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                4
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                5
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                6
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                7
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                8
-                            </div>
-                        </div> 
-                        
-                        <div class="col-sm-6 col-md-4">
-                            <div class="item">
-                                9
-                            </div>
-                        </div> 
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item1">
+                        <div class="text"><a href="#"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item2">
+                        <div class="text"><a href="../3_2_Quanititive_User_Research/3_2_Quanititive_User_Research.html"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item3">
+                        <div class="text"><a href="../3_3_Data_visualization/3_3_Data_visualization.html"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item4">
+                        <div class="text"><a href="../3_4_CIARO/3_4_CIARO.html"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item5">
+                        <div class="text"><a href="../3_5_DCLOCK/3_5_DCLOCK.html"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item6">
+                        <div class="text"><a href="../3_6_BREEZI/3_6_BREEZI.html"></a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item7">
+                        <div class="text"><a href="../3_7_Midas_branding/3_7_Midas_branding.html"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item8">
+                        <div class="text"><a href="#"></a></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="item item9">
+                        <div class="text"><a href="#"></a></div>
+                    </div>
+                </div>                
             </div>
 
            
@@ -124,8 +124,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         
     <script>
-        var same_width = $('#main .item').css("width");
-        $('#main .item').css("height", same_width.toString());
+        $( document ).ready(function() {
+            var same_width = $('#all_item').innerWidth;
+            console.log(same_width);
+        });
+
+//        $('#main .item').css("height", same_width.toString());
     </script>
     </body>
 </html>

@@ -68,7 +68,7 @@ a, li {
 .wrapper .description_1 .intro h1 {
     height: 90px;
     font-family: Times-bold-italic;
-    font-size: 80px;
+    font-size: 9rem;
     line-height: 1.13;
     margin-top: 0;
 }
@@ -102,20 +102,59 @@ a, li {
     font-family: HelveticaNeueLTStd-Roman;
     font-size: 12px;
     line-height: 2.08;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.7);
 }
 
-.wrapper .description_2 div:first-child > ul li {
-/*    margin-left: -40px;*/
+.wrapper .description_2 .col-sm-2 > ul li {
     color: rgba(0, 0, 0, 0.87);
 }
 
+.wrapper .description_2 .col-sm-2#cert > ul li:not(.title):nth-child(2n+1) {
+    color : rgba(0,0,0,0);
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.wrapper .description_2 .col-sm-4#cert1 > ul li:not(.title):nth-child(2n+1) {
+    color : rgba(0,0,0,0.5);
+    line-height: normal;
+    margin-bottom: 5px;
+
+}
 .wrapper .description_2 .col-sm-3 > ul li {
-    margin-left :80px;
 }
 
 
 .wrapper .description_2 li.title {
+    font-family: HelveticaNeueLTStd-Roman;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 24px;
+    margin-right: -20px;
+    word-break: break-all;
+}
+
+
+.wrapper .description_3 ul {
+    padding-left: 0;
+    padding-top: 48px;
+}
+
+.wrapper .description_3 ul li {
+    font-family: HelveticaNeueLTStd-Roman;
+    font-size: 12px;
+    line-height: 2.08;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.wrapper .description_3 .col-sm-2 > ul li {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.wrapper .description_3 .col-sm-3 > ul li {
+}
+
+.wrapper .description_3 li.title {
     font-family: HelveticaNeueLTStd-Roman;
     font-size: 15px;
     letter-spacing: -0.1px;
