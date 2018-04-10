@@ -110,6 +110,11 @@ a, li {
     color: rgba(0, 0, 0, 0.87);
 }
 
+.wrapper .description_2 .col-sm-3 > ul li {
+    margin-left :80px;
+}
+
+
 .wrapper .description_2 li.title {
     font-family: HelveticaNeueLTStd-Roman;
     font-size: 15px;
