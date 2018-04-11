@@ -10,6 +10,8 @@ li {
 a {
     text-decoration: none;
 }
+
+/*
 .wrapper {
     padding: 0 10%;
     position: relative;
@@ -63,6 +65,7 @@ a {
     border: none;
     background-color: transparent;
 }
+*/
 
 
 .wrapper .tab-content #all .all_items {

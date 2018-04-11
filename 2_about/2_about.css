@@ -165,8 +165,8 @@ a, li {
 }
 .wrapper .description_3 li.bold {
     font-family: 'Helvetica-roman';
-    font-size: 13px;
-    color: rgba(0, 0, 0, 0.87);
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
 }
 
 .wrapper .page-footer {

@@ -2,42 +2,45 @@
 <html>
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- † -->
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- † -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Data Visualization</title>
-<link rel="stylesheet" href="3_3_Data_visualization.css">
-<link rel="stylesheet" href="../../6_static/6_6_common/6_6_0_font/font.css">
+    <title>Data Visualization</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="3_3_Data_visualization.css">
+    <link rel="stylesheet" href="../../6_static/6_6_common/6_6_0_font/font.css">
+    <link rel="stylesheet" href="../common_header_footer.css">
 </head>
 
 <body>
-    <div id = "back-img">
-    </div>
+    <div id = "back-img"></div>
     <div class ="wrapper">
-        <nav class="header">
-            <div id="logo">
-                <a href="/">
-                    <span id ="SeungHeon">SeungHeon</span>
-                    <span id = "Doh">Doh</span>
-                </a>
-                <div style="float: right;">
-                    <a class="menuLink" href="#">Data</a>
-                    <a class="menuLink" href="#">Product</a>
-                    <a class="menuLink" href="#">Visualization</a>
+        <div class = "first">
+            <nav class="nav navbar">
+                <div class="return_main navbar-nav">
+                    <a href="../../1_front/1_front.html">
+                        <img src="../../6_static/6_6_common/6_6_1_logo/namelogo.png" alt="">
+                    </a>
                 </div>
+            </nav>
 
-                 <div class="subtitle">
-                     Personal instagram data analysis
-                 </div>
+            <ul class="nav nav-tabs select_tab">
+                <li><a href="#all">ALL</a></li>
+                <li class="active"><a href="../3_0_project_front/3_0_project_front.html">DATA</a></li>
+                <li><a href="" >PRODUCT</a></li>
+                <li><a href="#vizualization" >VIZUALIZATION</a></li>
+            </ul>
 
-                <div class="title">
-                    Doh'stagram
-                </div>
+            <div class="subtitle">
+                 Personal instagram data analysis
+             </div>
+
+            <div class="title">
+                Doh'stagram
             </div>
-        </nav>
-
-
+        </div>
 
         <section class="description">
             <div class="fisrt" style="width: 40%">
@@ -82,14 +85,18 @@
         <hr>
         <p>Main image</p>
     </section>
-
+    <div class="wrapper">
         <div class="footor">
             <div id="footer-content">
-                <span id ="port">Portfoilo Designed in 2018</span>
+                <span id ="port">Portfoilo Designed in 2017</span>
                 <span id ="fin">fin.</span>
-                <img src = "logomark.png" width = "50 px" hight = "21 px">
+                <img src = "../../6_static/6_6_common/6_6_1_logo/logomark.png" width = "64 px" hight = "21 px">
             </div>
         </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
