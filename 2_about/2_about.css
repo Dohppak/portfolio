@@ -105,6 +105,10 @@ a, li {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.wrapper .description_2 .col-sm-2 li.l {
+    color: rgba(0,0,0,0);
+}
+
 .wrapper .description_2 .col-sm-2 > ul li {
     color: rgba(0, 0, 0, 0.87);
 }
