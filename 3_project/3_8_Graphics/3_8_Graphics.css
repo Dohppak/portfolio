@@ -93,9 +93,6 @@ body {
     background: url(../../6_static/6_3_project/6_3_8_AntHouse_branding/6_3_8_1_4.png) center no-repeat;
 }
 
-
-
-
 .main {
     position: relative;
     left: 0;
@@ -110,7 +107,6 @@ body {
     font-family: "Helvetica-Roman";
     font-size: 1.3rem;
     color : rgba(0,0,0,0.87);
-
 }
 
 .main hr {
@@ -124,6 +120,7 @@ body {
 .main p.white {
     color : rgba(255,255,255,1);
 }
+
 .main hr.white {
     background-color: rgba(255,255,255,1);
 }

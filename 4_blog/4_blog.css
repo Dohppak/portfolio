@@ -83,7 +83,6 @@ a, li {
 }
 
 .wrapper .tab-content #all .all_items > li div > * {
-/*    width: 100%;*/
     margin: 0;
     padding: 0;
     position: absolute;

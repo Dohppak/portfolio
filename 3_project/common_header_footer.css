@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-/*  fotter  */
+/*  footer  */
 
 .footor {
     display:flex;
@@ -61,18 +61,13 @@
     margin: 2rem auto 1rem auto;
 }
 
-#footer-content{
-}
-
-#footer-content img{
-}
-
-#port{
+#port {
     color: rgba(0,0,0,0.33);
     font-family: "Times-bold-italic";
     line-height: 15px;
 }
-#fin{
+
+#fin {
     color: rgba(0,0,0,0.87);
     font-family: "Times-bold-italic";
     line-height: 15px;

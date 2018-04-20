@@ -32,30 +32,15 @@ a{
 }
 
 
-#main-ul{
-    height : 70vh;
-    list-style-type: none;
-    padding-left:0;
-}
-
-
 .main{
     font-size: 5rem;
     font-family: 'Helvetica-ultra-light';
 }
 
-#main-ul li a{
-    text-decoration: none;
-    color : #000;
-}
 
-#main-ul li a:hover{
-    color: #fff;
-}
 .footor {
     display:flex;
     float: right;
-
 }
 
 #footer-content{
@@ -63,14 +48,12 @@ a{
     margin-bottom : 1rem;
 }
 
-#footer-content img{
-}
-
 #port{
     color: rgba(0,0,0,0.33);
     font-family: "Times-bold-italic";
     line-height: 15px;
 }
+
 #fin{
     color: rgba(0,0,0,0.87);
     font-family: "Times-bold-italic";

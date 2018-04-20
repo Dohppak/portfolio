@@ -28,7 +28,6 @@ a, li {
 }
 
 .wrapper .nav .links {
-/*    width: ?px;*/
     height: 21px;
     margin-right: 0;
 }
@@ -48,7 +47,7 @@ a, li {
 .wrapper .description_1 #my_back {
     width: 563px;
     height: 100%;
-    background-image:url(../6_static/6_2_about/6_2_0_Profile.png)
+    background-image:url(../6_static/6_2_about/6_2_0_Profile.png);
 }
 
 .wrapper .description_1 .intro {
@@ -118,15 +117,12 @@ a, li {
     line-height: normal;
     margin-bottom: 5px;
 }
+
 .wrapper .description_2 .col-sm-4#cert1 > ul li:not(.title):nth-child(2n+1) {
     color : rgba(0,0,0,0.33);
     line-height: normal;
     margin-bottom: 5px;
-
 }
-.wrapper .description_2 .col-sm-3 > ul li {
-}
-
 
 .wrapper .description_2 li.title {
     font-family: HelveticaNeueLTStd-Roman;
@@ -137,7 +133,6 @@ a, li {
     margin-right: -20px;
     word-break: break-all;
 }
-
 
 .wrapper .description_3 ul {
     padding-left: 0;
@@ -153,9 +148,6 @@ a, li {
 
 .wrapper .description_3 .col-sm-2 > ul li {
     color: rgba(0, 0, 0, 0.87);
-}
-
-.wrapper .description_3 .col-sm-3 > ul li {
 }
 
 .wrapper .description_3 li.title {
@@ -188,7 +180,4 @@ a, li {
 
 .wrapper .page-footer span:last-child {
     color: rgba(0, 0, 0, 0.87);
-}
-
-.wrapper .page-footer img {
 }
