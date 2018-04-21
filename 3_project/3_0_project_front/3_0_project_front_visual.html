@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"> <!-- † -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <link rel="stylesheet" href="../../6_static/vender/bootstrap.min.css">
+    <link rel="stylesheet" href="../../6_static/vender/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="3_0_project_front.css">
+    <link rel="stylesheet" href="../../6_static/6_6_common/6_6_0_font/font.css">
+    <link rel="stylesheet" href="../common_header_footer.css">
+
+    <link rel="import" href="./3_1_project_front_tab_contents.html">
+</head>
+
+<body>
+
+    <div class ="wrapper">
+        <nav class="nav navbar">
+            <div class="return_main navbar-nav">
+                <a href="../../1_front/1_front.html">
+                    <img src="../../6_static/6_6_common/6_6_1_logo/namelogo.png" alt="">
+                </a>
+            </div>
+        </nav>
+
+        <ul class="nav nav-tabs select_tab">
+            <li><a href="#all" role="tab" data-toggle="tab">ALL</a></li>
+            <li><a href="#data" role="tab" data-toggle="tab">DATA</a></li>
+            <li><a href="#product" role="tab" data-toggle="tab">PRODUCT</a></li>
+            <li class="active"><a href="#visualization" role="tab" data-toggle="tab">VISUALIZATION</a></li>
+        </ul>
+
+        <!-- tab-content -->
+        <div class="tab-content" id="tab_contents"></div>
+        <script>
+            var link = document.querySelector('link[rel="import"]');
+
+            // import에서 <template>를 복제.
+            var template = link.import.querySelector('template');
+            var clone = document.importNode(template.content, true);
+
+            document.querySelector('#tab_contents').appendChild(clone);
+        </script>
+
+<!--
+       <div class="preload_imgs" style="height: 3px; opacity: 0;">
+            <img src="../../6_static/6_3_project/6_3_1_AntHouse_web/top.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_1_AntHouse_web/6_3_1_1_CB.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_2_Quanititive_User_Research/6_3_2_0_Top.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_2_Quanititive_User_Research/6_3_2_1_CB.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_3_Data_visualization/6_3_3_0_Top.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_3_Data_visualization/6_3_3_1_Main-1.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_4_CIARO/6_3_4_0_TOP.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_4_CIARO/6_3_4_1_Mockup.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_5_DCLOCK/3.2.2.TOP-1.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_0_Top.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_6_BREEZI/6_3_3_1_Mockup.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_7_Midas_branding/6_3_6_0_Top.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_7_Midas_branding/6_3_6_1_Contents.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_8_AntHouse_branding/6_3_8_0_TOP.png" width=1 height=1>
+            <img src="../../6_static/6_3_project/6_3_8_AntHouse_branding/6_3_8_1_1.png" width=1 height=1>
+       </div>
+-->
+
+        <div class="footor">
+            <div id="footer-content">
+                <span id ="port">Portfoilo Designed in 2017</span>
+                <span id ="fin">fin.</span>
+                <img src = "../../6_static/6_6_common/6_6_1_logo/logomark.png" width = "50 px" hight = "21 px">
+            </div>
+        </div>
+    </div> <!-- wrapper -->
+
+    <script src="../../6_static/vender/jquery.min.js"></script>
+    <script src="../../6_static/vender/bootstrap.min.js"></script>
+
+    <script>
+        $( document ).ready(function() {
+            $('#visualization').addClass("in active");
+        });
+    </script>
+</body>
+</html>

@@ -32,9 +32,8 @@ a {
     display : block;
     width : 100%;
     height: 100%;
+    position: relative;
 }
-
-
 
 
 .wrapper .tab-content .tab-pane .item1 {
@@ -75,4 +74,44 @@ a {
 .wrapper .tab-content .tab-pane .item8 {
     background: url(../../6_static/6_3_project/6_3_0_project_front/ICON1.png) center no-repeat;
     background-size: cover;
+}
+
+/* a.item .figcaption */
+.wrapper .tab-content .tab-pane .item .text a:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper .tab-content .tab-pane .item .text a .figcaption {
+    display: none;
+}
+
+.wrapper .tab-content .tab-pane .item .text a:hover .figcaption {
+    display: flex;
+    width: 80%;
+    height: 76%;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrapper .tab-content .tab-pane .item .text a:hover .figcaption * {
+    margin: 0;
+    color: #ffffff;
+}
+
+.wrapper .tab-content .tab-pane .item .text a:hover .figcaption .figcaption_title {
+    border-bottom: solid 1px #ffffff;
+    padding-bottom: 8px;
+}
+
+.wrapper .tab-content .tab-pane .item .text a:hover .figcaption p:nth-child(2) {
+/*    font-size: 15px;*/
+    line-height: 2;
+}
+
+.wrapper .tab-content .tab-pane .item .text a:hover .figcaption p > span {
+    font-weight: bold;
 }
