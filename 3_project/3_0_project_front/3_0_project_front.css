@@ -78,7 +78,7 @@ a {
 
 /* a.item .figcaption */
 .wrapper .tab-content .tab-pane .item .text a:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .wrapper .tab-content .tab-pane .item .text a .figcaption {
@@ -103,15 +103,19 @@ a {
 }
 
 .wrapper .tab-content .tab-pane .item .text a:hover .figcaption .figcaption_title {
+    font-size : 2.5rem;
+    font-family: "Times-bold-italic";
     border-bottom: solid 1px #ffffff;
     padding-bottom: 8px;
 }
 
 .wrapper .tab-content .tab-pane .item .text a:hover .figcaption p:nth-child(2) {
-/*    font-size: 15px;*/
+    font-size : 1.5rem;
+    font-family: 'Helvetica-roman';
     line-height: 2;
 }
 
 .wrapper .tab-content .tab-pane .item .text a:hover .figcaption p > span {
-    font-weight: bold;
+    font-size : 1.2rem;
+    font-family: 'Helvetica-bold-italic';
 }

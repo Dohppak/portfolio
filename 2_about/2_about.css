@@ -8,6 +8,10 @@ a, li {
     color: #000;
 }
 
+a:hover {
+    color : white;
+}
+
 .wrapper {
     padding: 0 10%;
 }
@@ -37,6 +41,7 @@ a, li {
     opacity: 0.5;
     margin: 0 12px;
 }
+
 
 .wrapper .description_1 {
     height: 570px;
@@ -102,6 +107,16 @@ a, li {
     font-size: 12px;
     line-height: 2.08;
     color: rgba(0, 0, 0, 0.7);
+}
+
+.wrapper .description_2 ul a {
+    font-family: HelveticaNeueLTStd-Roman;
+    font-size: 12px;
+    line-height: 2.08;
+    color: rgba(0, 0, 0, 0.7);
+}
+.wrapper .description_2 ul a:hover {
+    color: white;
 }
 
 .wrapper .description_2 .col-sm-2 li.l {
