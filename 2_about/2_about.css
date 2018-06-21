@@ -64,14 +64,14 @@ a:hover {
 
 .wrapper .description_1 .intro h4 {
     height: 25px;
-    font-family: HelveticaNeueLTStd-UltLt;
+    font-family: 'Helvetica-ultra-light';
     font-size: 25px;
     margin-bottom: 0;
 }
 
 .wrapper .description_1 .intro h1 {
     height: 90px;
-    font-family: Times-bold-italic;
+    font-family: "Times-bold-italic";
     font-size: 9rem;
     line-height: 1.13;
     margin-top: 0;
@@ -79,7 +79,7 @@ a:hover {
 
 .wrapper .description_1 .intro p {
     padding-left: 80px;
-    font-family: HelveticaNeueLTStd-Roman;
+    font-family: 'Helvetica-roman';
     font-size: 12px;
     line-height: 2.08;
     letter-spacing: -0.2px;
@@ -103,14 +103,14 @@ a:hover {
 }
 
 .wrapper .description_2 ul li {
-    font-family: HelveticaNeueLTStd-Roman;
+    font-family: 'Helvetica-roman';
     font-size: 12px;
     line-height: 2.08;
     color: rgba(0, 0, 0, 0.7);
 }
 
 .wrapper .description_2 ul a {
-    font-family: HelveticaNeueLTStd-Roman;
+    font-family: 'Helvetica-roman';
     font-size: 12px;
     line-height: 2.08;
     color: rgba(0, 0, 0, 0.7);
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .wrapper .description_2 li.title {
-    font-family: HelveticaNeueLTStd-Roman;
+    font-family: 'Helvetica-roman';
     font-size: 15px;
     letter-spacing: -0.1px;
     color: rgba(0, 0, 0, 0.87);
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .wrapper .description_3 ul li {
-    font-family: HelveticaNeueLTStd-Roman;
+    font-family: 'Helvetica-roman';
     font-size: 12px;
     line-height: 2.08;
     color: rgba(0, 0, 0, 0.7);
