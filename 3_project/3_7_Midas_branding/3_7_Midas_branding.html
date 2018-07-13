@@ -111,6 +111,19 @@
 
     <script src="../../6_static/vender/jquery.min.js"></script>
     <script src="../../6_static/vender/bootstrap.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $( ".main" ).each(function() {
+                let window_width = $(window).width();
+                let percentage = window_width/2560;
+                $(this).height(1452*percentage);
+            });
+        });
+//        $(document).ready(function() {
+//          var href = $('.cssbuttongo').attr('href');
+//          window.location.href = href; //causes the browser to refresh and load the requested url
+//       });
+    </script>
 
 </body>
 </html>
