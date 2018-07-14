@@ -79,9 +79,9 @@ body {
 
 .main {
     position: relative;
-/*    left: 0;*/
+    left: 0;
     width : 100vw;
-/*    height : 100vh;*/
+    height : 100vh;
     padding-top: 8vh;
     background-size: cover;
 }
@@ -106,8 +106,8 @@ body {
 /* 부모 요소가 16:9 모양의 틀을 만들었으니 이 녀석을 기준 삼아 받아온 비디오를 부묘 요소에 꽉 차게 담을 수 있게 한다.*/
 .media-container iframe {
     position: absolute;
-    width : 90%;
-    height: 90%;
+    width : 80%;
+    height: 80%;
     top :0;
     left:0;
 }
